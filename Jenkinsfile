@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build'){
       steps {
-        sh 'g++ working.cpp'
+        sh 'g++ workjhvding.cpp'
         build job: "PES2UG20CS503-1", wait: true
       }
     }
